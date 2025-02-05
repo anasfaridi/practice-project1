@@ -1,0 +1,293 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Banner */
+.para {
+    text-align: center;
+    padding: 10px;
+    background-color: #34a5ca;
+    color: #494848;
+    font-size: 19px;
+
+}
+
+/* Header */
+
+.image img {
+    width: 40%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+    color: #494848;
+    font-size: 20px;
+
+}
+
+.nav-list div:hover {
+    color: #34a5ca;
+}
+
+.buttons {
+    gap: 10px;
+}
+
+.button-1 {
+    border: 1px solid #34a5ca;
+}
+
+.button-2 {
+    border: none;
+    background-color: #34a5ca;
+}
+
+.buttons button {
+    padding: 14px 22px;
+    border-radius: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* Hero-section */
+
+.right-sec {
+    text-align: center;
+    width: 28%;
+}
+
+.right-sec h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #183b56;
+}
+
+.right-sec p {
+    margin-bottom: 20px;
+}
+
+.button-3 {
+    border: none;
+    background-color: #34a5ca;
+    padding: 14px 27px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-sec {
+    width: 50%;
+
+}
+
+.img img {
+    margin: 50px 60px;
+    width: 80%;
+}
+
+/* Text */
+
+.text {
+    text-align: center;
+    padding: 10px;
+    font-size: 19px;
+    color: #494848;
+}
+
+/* Company-Section */
+
+.company-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.company-img img {
+    margin: 0px 40px;
+}
+
+/* Section-2 */
+
+.sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+    color: #494848;
+}
+
+.button-4 {
+    padding: 14px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #34a5ca;
+    color: #494848;
+    font-size: 17px;
+    text-align: center;
+}
+
+.arrow-design {
+    color: #34a5ca;
+}
+
+/* Card */
+
+.card img {
+    width: 40px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #494848;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    margin-bottom: 10px;
+    color: #201717;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+/* Section-3 */
+
+.Section-3 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.image3 img {
+    margin-top: 70px;
+    width: 60%;
+}
+
+.texts h1 {
+    width: 50%;
+    color: #183b56;
+}
+
+.texts h5 {
+    font-size: 35px;
+    width: 50%;
+    color: #183b56;
+}
+
+.texts h6 {
+    font-size: 35px;
+    width: 60%;
+    color: #183b56;
+}
+
+.texts p {
+    width: 50%;
+    color: #494848;
+}
+
+.Section-left {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Section-4 */
+
+.Section-4 {
+    background-color: #183b56;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.Section-4 h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.Section-4 p {
+    font-size: 19px;
+}
+
+/* Footer */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.columns h4 {
+    font-size: 28px;
+    color: #183b56;
+    font-weight: 550;
+
+}
+
+a img {
+    width: 70%;
+}
+
+.columns a {
+    text-decoration: none;
+    color: #494848;
+    font-size: 17px;
+}
+
+.columns a:hover {
+    color: #183b56;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
